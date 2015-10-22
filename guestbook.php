@@ -8,7 +8,7 @@
 $link = mysqli_connect(
     "127.0.0.1", // host
     "root",      // username
-    "root",      // password
+    "libby23grace",      // password
     "guestbook"       // schema name
 );
 
@@ -78,6 +78,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 <html lang="en">
     <head>
         <title>Guestbook</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
         <style>
             #container {
                 display: block;
